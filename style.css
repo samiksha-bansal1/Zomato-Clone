@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  background-size: cover;
+  height: 35rem;
+}
+.navIcons {
+  padding: 1.0625rem 0px;
+  display: flex;
+  align-items: center;
+  height: 4.375rem;
+}
+.appLinks {
+  width: 50%;
+  font-size: 0.875rem;
+  margin-left: 2rem;
+  width: 60%;
+}
+.appIcons {
+  color: white;
+}
+.navLinks {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.125rem;
+}
+/* logoZomato */
+.navLogo {
+  height: 3.75rem;
+  width: 18.75rem;
+}
+.navText {
+  color: white;
+  font-size: 2.25rem;
+}
+.navSectionTwo {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.navSearchTwo input {
+  outline: none;
+}
+.twoMargin {
+  margin-top: 1.2rem;
+}
+.navLocation {
+  color: #ff929d;
+  font-size: 1.2rem;
+}
+.citySelect {
+  border: none;
+  color: #8e8e8e;
+  background-color: transparent;
+}
+/* remove box border on click from placeholder */
+.navSearch {
+  background-color: white;
+  width: 43rem;
+  display: flex;
+  align-items: center;
+  height: 3.43rem;
+  border-radius: 0.5rem;
+}
+.navSearchOne {
+  width: 40%;
+  margin-left: 1.25rem;
+}
+.navSearchTwo {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.navSectionTwo input {
+  margin-left: 1rem;
+  border: none;
+  width: 100%;
+}
+/* third section */
+main {
+  margin: 3.125rem 12rem 0px 12rem;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+.dishesImg {
+  height: 60%;
+  width: 100%;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  background-size: cover;
+  background-position: center;
+}
+.dishes {
+  width: 48%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 0.5px solid #cccccc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dishes:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.dishesText {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.dishesText a {
+  display: block;
+  margin-top: 15px;
+}
+/* fourth section */
+
+/* footer */
+footer {
+  background-color: #f8f8f8;
+  margin-top: 20px;
+  /* height: 600px; */
+}
+.footerSectionOne {
+  padding: 30px;
+  display: flex;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+.footerLogo {
+  background-image: url(/logoZomato2.png);
+  height: 30px;
+  width: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+.footerLogoSection {
+  width: 80%;
+}
+.footerButtonSection {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerButton {
+  width: 95px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 3px 7px 3px 7px;
+  border: 0.8px solid #cccccc;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerSectionTwo {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.footerText h6 {
+  margin: 0px 0px 12px;
+}
+.footerText li {
+  list-style: none;
+  margin: 5px 0px;
+  color: #696969;
+  cursor: pointer;
+}
+.footerText li:hover {
+  color: black;
+}
+.footerColor {
+  color: black;
+}
+.footerIcons {
+  display: flex;
+}
+.footerIcons li {
+  margin-right: 10px;
+}
+.footerImg {
+  height: 40px;
+}
+.footerSectionThree {
+  color: #696969;
+  margin: 5px 90px;
+  padding-top: 20px;
+  border-top: 0.5px solid #696969;
+  margin-bottom: 10px;
+}
+.zomatoAppSection {
+  margin-top: 100px;
+  background-color: #fffbf7;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appSectionImage {
+  width: 250px;
+}
+.zomatoAppSection li {
+  list-style: none;
+}
+.appText {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.appSection2 {
+  display: flex;
+}
+.loginPage {
+  display: flex;
+  gap: 2rem;
+}
+.loginPage div {
+  display: flex;
+  gap: 0.5rem;
+}
+.appFormButton {
+  background-color: #ef4f5f;
+  border: none;
+  border-radius: 8px;
+  height: 48px;
+  width: 150px;
+  padding: 0 16px;
+  color: white;
+}
+.emailHolder {
+  height: 48px;
+  width: 290px;
+  padding-left: 13px;
+  border: 0.5px solid #cccccc;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #69696985;
+}
+.zomatoColor {
+  color: #363636;
+}
+.downloadAppFrom {
+  color: #9c9c9c;
+}
+.getTheZomatoApp {
+  font-size: 35px;
+}
+.div2 {
+  margin-bottom: 10px;
+}
+/* divSection3 */
+.localities {
+  margin-top: 100px;
+}
+.localitiesOne {
+  font-size: 36px;
+  margin: 0 0 40px;
+  color: #363636;
+}
+.areaGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+.areaGridChild {
+  width: 30%;
+  height: 80px;
+  border: 0.5px solid #dddddd;
+  padding: 12px 15px;
+  display: flex;
+  border-radius: 10px;
+}
+.areaGridChild:hover {
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.gridChildStyle {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.gridHeading {
+  font-size: 20px;
+}
+.child1 {
+  width: 88%;
+}
+.child2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 12%;
+}
+.child2 i {
+  height: 15px;
+  width: 15px;
+}
+.gridPlaces {
+  color: #363636;
+}
+/* collections */
+.collections {
+  height: 460px;
+  margin: 50px 0px 0px 0px;
+}
+.collectionsColor {
+  color: #363636;
+  font-size: 18px;
+}
+.collectionsHeading1 {
+  font-size: 36px;
+  width: 700px;
+}
+.collections a {
+  color: #e03546;
+  text-align: center;
+  text-decoration: none;
+}
+.collectionsTwo {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.collectionsImage {
+  color: white;
+  border-radius: 10px;
+  /* background-image: url(/collection_item1.png); */
+  border-image: fill 0 linear-gradient(#0001, #00000080);
+  height: 20rem;
+  width: 24.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.imageClass {
+  font-size: 14px;
+}
+.collectionsImage div {
+  margin: 0px 0px 10px 10px;
+}
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.explore {
+  padding: 50px 0px;
+  margin: 3.125rem 12rem 0px 12rem;
+}
+.explore p {
+  font-size: 30px;
+  color: #363636;
+}
+.exploreDiv {
+  height: 66px;
+  font-size: 20px;
+  color: #1c1c1c;
+  padding: 20px 24px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 0.8rem;
+  margin: 10px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.padding {
+  padding: 0px 12.5rem;
+}
+.flag {
+  height: 14px;
+  width: 22px;
+  background-image: url(/flag.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
