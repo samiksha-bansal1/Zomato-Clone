@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 .navbar a {
   text-decoration: none;
@@ -144,7 +144,7 @@ footer {
   padding-right: 9rem;
 }
 .footerLogo {
-  background-image: url(/logoZomato2.png);
+  background-image: url(./imagesFolder/logoZomato2.png);
   height: 30px;
   width: 120px;
   background-size: contain;
@@ -398,7 +398,7 @@ footer {
 .flag {
   height: 14px;
   width: 22px;
-  background-image: url(/flag.png);
+  background-image: url(./imagesFolder/flag.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
